@@ -464,7 +464,7 @@ project(":core") {
 //        implementation("cc.unitmesh:document:1.0.0")
 
         // kanban
-        implementation("org.kohsuke:github-api:1.326")
+        implementation("org.kohsuke:github-api:1.327")
         implementation("org.gitlab4j:gitlab4j-api:5.8.0")
 
         // template engine
