@@ -158,7 +158,7 @@ configure(subprojects - project(":exts")) {
     dependencies {
 //        compileOnly(kotlin("stdlib-jdk8"))
 //        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
 
         testOutput(sourceSets.test.get().output.classesDirs)
 
@@ -473,7 +473,7 @@ project(":core") {
         // token count
         implementation("com.knuddels:jtokkit:1.1.0")
 
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     }
 
     tasks.register("resolveDependencies") {
